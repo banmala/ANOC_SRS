@@ -1,0 +1,36 @@
+\chapter{Expected Outcomes}
+Firstly, \ref*{Appendix: Splash Screen} the splash screen is displayed to welcome and introduce users about the application and how it works.\\\\
+\ref*{Appendix: Main Menu} Main menu consists of two options basically to make user to define area structure and space to start floor plan.\\\\
+    First one is using map provided by malpot to get an accurate location for the building as well as maintain the appropriate scale to plan footprint.In this case of manual file upload as in \ref*{Appendix: Manual image file with appropriate scale}, we need a fine quality PNG image with appropriate scale .\\\\
+    Then, as for the precise map area selection option is provided as in \ref*{Appendix: Manual Map upload from Malpot and area marking}.\\\\
+    And another one is to freely draw and mark to specify the area eligible to place building.
+    For this the empty canvas is given to user with access to draw a free shape to have abstract concept designing at the early stage as in \ref*{Appendix: Free drawing shape for concept design}.\\\\
+    Also, after specifying area of interest we can even give option to specify the shape of area eligible for building using vertices marking over it.
+    Now, finally in \ref*{Appendix: Constraint given to plan} user can define his/her constraints over the floor plan with markings for openings as well as entrance and shapes of the floor to proceed towards GAN generated output.\\\\
+    In this stage as in \ref*{Appendix: Choose and proceed GAN design}, user are given options of GAN generated raster images which are displayed alog the line bottom of screen from which one can be selected and proceed to vector image generation as well as the 3D model generation.
+    Then the final step is to 3D model the floor plan in browser as in \ref*{Appendix: Generate 3D} and make user experience rendered view eligible for exploration.\\\\
+    We are making this as a deployable web app using simple python flask framework. Until now, we have succesfully made the static screens eligible for populating with generated results from backend system of GAN model. Despite the completion of frontend parts, our model training for FPGAN is not yet completed.Therefore, we have not mentioned working prototype for now. We will be focusing in that on our next phase.\\\\
+    \break
+    So, we decided to train GAN model based on the various combinations of generators and discriminators as mention in \ref{subsection:ganarchitectures}\\
+    Then, after training each of above models we will compare its metric based on inception score as well as FID score for each pipeline followed in our project. i.e the expected model comparision table based in Inception score will be as: 
+    \begin{table}[h]
+        \centering
+        \caption{Inception score of each model for each pipeline steps}
+        \begin{tabular}{|c|c|c|c|c|c|c|}
+            \hline
+            &\multicolumn{6}{|c|}{Models} \\
+            \hline
+            \textbf{Pipelines} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6}\\
+            \hline
+            \textbf{Parcel to Footprint} & - & - & - & - & - & -\\
+            \hline
+            \textbf{Footprint to Roomsplit} & - & - & - & - & - & -\\
+            \hline
+            \textbf{Roomsplit to Furnished} & - & - & - & - & - & -\\
+            \hline
+            % \textbf{Furnished to 3D} & - & - & - & - & - & -\\
+            % \hline
+        \end{tabular} 
+    \end{table}
+    And for FID score comparision, we will be using the same table seperately.
+   
