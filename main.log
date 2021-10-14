@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.4)  14 OCT 2021 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.4)  14 OCT 2021 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,29 +805,29 @@ Chapter 2.
 
 
 
-] [3]) [4]
+] [3] [4]) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (/home/banmala/Documents/ANOC/ANOC_SRS/main.aux (/home/banmala/Documents/ANOC/ANOC_SRS/title.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/intro.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_1.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7B346A245DF69DAB3184E7C1637FB8C0;482.
+(rerunfilecheck)             Checksum: DCF4C48C291B1C7657A4C4DEE9F1ED39;739.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 10535 strings out of 492982
- 158742 string characters out of 6134897
- 284492 words of memory out of 5000000
- 13838 multiletter control sequences out of 15000+600000
+ 10559 strings out of 492982
+ 159032 string characters out of 6134897
+ 285494 words of memory out of 5000000
+ 13842 multiletter control sequences out of 15000+600000
  10756 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,5n,42p,1201b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/banmala/Documents/ANOC/ANOC_SRS/main.pdf (6 pages, 57050 bytes).
+Output written on /home/banmala/Documents/ANOC/ANOC_SRS/main.pdf (7 pages, 59819 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 73 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
