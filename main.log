@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.4)  14 OCT 2021 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.4)  14 OCT 2021 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/banmala/Documents/ANOC/SRS/main.tex
-(/home/banmala/Documents/ANOC/SRS/main.tex
+**/home/banmala/Documents/ANOC/ANOC_SRS/main.tex
+(/home/banmala/Documents/ANOC/ANOC_SRS/main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -662,7 +662,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthfirst=\dimen148
  (/usr/share/texlive/texmf-dist/tex/latex/titlesec/ttlps.def
 File: ttlps.def 2016/03/15
-)) (/home/banmala/Documents/ANOC/SRS/main.aux (/home/banmala/Documents/ANOC/SRS/title.aux) (/home/banmala/Documents/ANOC/SRS/intro.aux) (/home/banmala/Documents/ANOC/SRS/chapter/chapter_1.aux) (/home/banmala/Documents/ANOC/SRS/chapter/chapter_2.aux))
+)) (/home/banmala/Documents/ANOC/ANOC_SRS/main.aux (/home/banmala/Documents/ANOC/ANOC_SRS/title.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/intro.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_1.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -755,19 +755,19 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
- (/home/banmala/Documents/ANOC/SRS/main.out) (/home/banmala/Documents/ANOC/SRS/main.out)
+ (/home/banmala/Documents/ANOC/ANOC_SRS/main.out) (/home/banmala/Documents/ANOC/ANOC_SRS/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 \openout2 = `title.aux'.
 
- (/home/banmala/Documents/ANOC/SRS/title.tex) [1
+ (/home/banmala/Documents/ANOC/ANOC_SRS/title.tex) [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `intro.aux'.
 
- (/home/banmala/Documents/ANOC/SRS/intro.tex (/home/banmala/Documents/ANOC/SRS/main.toc
+ (/home/banmala/Documents/ANOC/ANOC_SRS/intro.tex (/home/banmala/Documents/ANOC/ANOC_SRS/main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -786,7 +786,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `chapter/chapter_1.aux'.
 
- (/home/banmala/Documents/ANOC/SRS/chapter/chapter_1.tex
+ (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_1.tex
 Chapter 1.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -799,35 +799,35 @@ l.36     \include{chapter/chapter_1}
 ]
 \openout2 = `chapter/chapter_2.aux'.
 
- (/home/banmala/Documents/ANOC/SRS/chapter/chapter_2.tex
+ (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_2.tex
 Chapter 2.
 [2
 
 
 
-]) [3]
+] [3]) [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
- (/home/banmala/Documents/ANOC/SRS/main.aux (/home/banmala/Documents/ANOC/SRS/title.aux) (/home/banmala/Documents/ANOC/SRS/intro.aux) (/home/banmala/Documents/ANOC/SRS/chapter/chapter_1.aux) (/home/banmala/Documents/ANOC/SRS/chapter/chapter_2.aux))
+ (/home/banmala/Documents/ANOC/ANOC_SRS/main.aux (/home/banmala/Documents/ANOC/ANOC_SRS/title.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/intro.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_1.aux) (/home/banmala/Documents/ANOC/ANOC_SRS/chapter/chapter_2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 698C4F54136BF20BDC32ED755AD0C9AB;420.
+(rerunfilecheck)             Checksum: 7B346A245DF69DAB3184E7C1637FB8C0;482.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 10491 strings out of 492982
- 157972 string characters out of 6134897
- 284493 words of memory out of 5000000
- 13824 multiletter control sequences out of 15000+600000
+ 10535 strings out of 492982
+ 158742 string characters out of 6134897
+ 284492 words of memory out of 5000000
+ 13838 multiletter control sequences out of 15000+600000
  10756 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,5n,42p,1196b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,5n,42p,1201b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/banmala/Documents/ANOC/SRS/main.pdf (5 pages, 51444 bytes).
+Output written on /home/banmala/Documents/ANOC/ANOC_SRS/main.pdf (6 pages, 57050 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
